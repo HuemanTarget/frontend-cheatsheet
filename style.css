@@ -1,6 +1,9 @@
 h1 {
   text-align: center;
   font-size: 50px;
+  padding-top: 15px;
+  margin-bottom: 0em;
+  padding-bottom: 10px;
 }
 
 .links {
@@ -40,10 +43,34 @@ a {
   font-size: 18px;
 }
 
+a.link {
+  color: black;
+}
+
 td {
   font-size: 18px;
 }
 
 tr:nth-child(even) {
   background-color: rgb(221, 243, 252);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: cornflowerblue;
+  padding: 10px;
+  justify-content: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header,
+a {
+  color: white;
+  text-align: center;
 }
